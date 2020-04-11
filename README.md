@@ -36,9 +36,9 @@ npm run dev
 ```
 
 Developer mode runs off the TypeScript source. Any saves will reset the server and run the latest version of the codebase. 
-## Elastic block 
+## Elastic beanstalk 
 
-To initalize elasticbean
+To initalize Elastic beanstalk
 ```bash 
 eb init 
 ```
@@ -48,9 +48,17 @@ Add this code in config.yml
 deploy:
   artifact: ./www/Archive.zip
 ```
-Create Elasticbean
+Create Elastic beanstalk
 
 ```bash
 eb create
 ```
 
+### Enviroinmental variable 
+Set env variable in Elastic beanstalk. According to this verstion we need to set three varialbes
+
+|Env variable|Purpose|
+|:--------|:--------|
+|username|RDB username, password, DB Name|
+|host|RDB end point URL|
+|bucket|S3 Bucket used|
