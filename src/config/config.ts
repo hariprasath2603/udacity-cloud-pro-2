@@ -15,5 +15,9 @@ export const config = {
     "database": process.env.username,
     "host": process.env.host,
     "dialect": "postgres"
+  },
+  "jwt":{
+    "secret":process.env.secretJWT
   }
 }
+
