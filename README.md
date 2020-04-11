@@ -36,4 +36,21 @@ npm run dev
 ```
 
 Developer mode runs off the TypeScript source. Any saves will reset the server and run the latest version of the codebase. 
+## Elastic block 
+
+To initalize elasticbean
+```bash 
+eb init 
+```
+
+Add this code in config.yml
+```json
+deploy:
+  artifact: ./www/Archive.zip
+```
+Create Elasticbean
+
+```bash
+eb create
+```
 
