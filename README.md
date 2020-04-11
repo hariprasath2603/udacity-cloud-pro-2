@@ -62,3 +62,6 @@ Set env variable in Elastic beanstalk. According to this verstion we need to set
 |username|RDB username, password, DB Name|
 |host|RDB end point URL|
 |bucket|S3 Bucket used|
+|secretJWT|secret key for jwt|
+
+Here secret is displayed publicly then change.
