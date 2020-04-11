@@ -10,7 +10,7 @@ A basic Ionic client web application which consumes the RestAPI Backend.
 
 
 ***
-## Getting Setup
+## Getting Setup  :bulb:
 
 ### Installing project dependencies
 
@@ -54,7 +54,7 @@ Create Elastic beanstalk
 eb create
 ```
 
-### Enviroinmental variable 
+### Enviroinmental variable :thumbsup:
 Set env variable in Elastic beanstalk. According to this verstion we need to set three varialbes
 
 |Env variable|Purpose|
